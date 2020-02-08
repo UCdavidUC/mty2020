@@ -1,6 +1,6 @@
 # IoT on Azure (MTY 2020)
 
-GitHub Docs: The concise guide to IoT Edge on Azure
+GitHub Docs: The concise guide to IoT Edge on Azure: https://github.com/UCdavidUC/mty2020/blob/master/AzureIoTEdge/%23%20IoT%20on%20Azure%20(MTY%202020).md
 
 ## Prepare your Microsoft Azure environment
 
