@@ -2,6 +2,16 @@
 
 GitHub Docs: The concise guide to IoT Edge on Azure: https://github.com/UCdavidUC/mty2020/blob/master/AzureIoTEdge/%23%20IoT%20on%20Azure%20(MTY%202020).md
 
+# Contents
+
+* AI - How tu run AI models on the Edge and stream it to the cloud
+* CV - Deploy your Cognitive Service Computer Vision and get insights from what you see.
+* Function - Create an IoT Edge integrated environment with Azure Functions running on the Edge.
+* ML - Run your machine learning models on the edge and get predictions and classifications models streaming to the cloud.
+* Stream Analytics - Gather only valuable inforamtion from your devices in real time, get your stream onto real time monitoring services in Azure with Power BI.
+
+# Getting started
+
 ## Prepare your Microsoft Azure environment
 
 ### Create a Resource Group to group your resources
