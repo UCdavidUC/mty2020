@@ -4,7 +4,7 @@ GitHub Docs: The concise guide to IoT Edge on Azure: https://github.com/UCdavidU
 
 # Contents
 
-* AI - How tu run AI models on the Edge and stream it to the cloud
+* AI - How tu run AI models on the Edge and stream it to the cloud.
 * CV - Deploy your Cognitive Service Computer Vision and get insights from what you see.
 * Function - Create an IoT Edge integrated environment with Azure Functions running on the Edge.
 * ML - Run your machine learning models on the edge and get predictions and classifications models streaming to the cloud.
@@ -12,18 +12,22 @@ GitHub Docs: The concise guide to IoT Edge on Azure: https://github.com/UCdavidU
 
 # Getting started
 
+In this guide it is described how to prepare your Azure and IoT Edge environments for our different labs and scenarios. 
+
+Enjoy!
+
 ## Prepare your Microsoft Azure environment
 
 ### Create a Resource Group to group your resources
 
 * Create your resource group based on the region you want to provision your resorces.
-* Use a meaningful name so you can identify what it´s contents are.
+* Use a meaningful name so you can identify what the resoruce's group contents are about.
 
 ### Create an IoT Hub
 
 * IoT Hub is you device gateway to the cloud.
 * You can register your devices here and receive information from them such as: monitoring informacion, data gathered from the environment or the result of on Edge data processing.
-* With Azure IoT Device Provisioning Service in Azure you can update all of your devices or specific single or grouped devices on zero touch on-deman way.
+* With Azure IoT Device Provisioning Service (IoT DPS) in Azure you can update all of your devices or specific single or grouped devices on zero touch on-deman way.
 * Configure your IoT Hub on the available regions depending on the features you want to deploy. *
 * IoT Hub may require some time to provision. Please be patient :D and have a coffee in the meantime.
 * Once it is provision, you can go to the next step.
@@ -55,6 +59,12 @@ GitHub Docs: The concise guide to IoT Edge on Azure: https://github.com/UCdavidU
     * IoT Edge Certified Devices: https://catalog.azureiotsolutions.com/alldevices?filters={%2218%22:[%221%22]}
 
 ## Prepare your device for IoT Edge
+
+* Debian 10 systems, including Raspian Buster, use a version of OpenSSL that IoT Edge doesn't support. Use the following command to install an earlier version before installing IoT Edge:
+
+```
+sudo apt-get install libssl1.0.2
+```
 
 ### References
 
