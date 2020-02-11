@@ -14,6 +14,10 @@ GitHub Docs: The concise guide to IoT Edge on Azure: https://github.com/UCdavidU
 
 In this guide it is described how to prepare your Azure and IoT Edge environments for our different labs and scenarios. 
 
+For this scenarios I will be using a Raspberry Pi 3 B. Support for Raspberry Pi 4 will be comming soon.
+
+You can also use a Linux or Windows environment. Plan ahead on aqcuiring a device with one CPU architectures: ARM32v7, AMD64 or ARM64 (in Preview, some features may not be available).
+
 Enjoy!
 
 ## Prepare your Microsoft Azure environment
