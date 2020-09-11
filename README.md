@@ -70,6 +70,8 @@ Enjoy!
 sudo apt-get install libssl1.0.2
 ```
 
+Access to the source demo and guidelines: https://docs.microsoft.com/en-us/azure/iot-edge/tutorial-deploy-custom-vision
+
 ### References
 
 Note: IoT DPS service is only available at certain locations, please review the following link to check service availability in Azure:
